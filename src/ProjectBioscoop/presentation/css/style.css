@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    font-size: 100%;
+    font-family: Arial, Verdana, sans-serif;
+    /*margin-bottom: 10rem;*/
+    background: url("../images/bg.png") center -5px repeat;
+    background-attachment: fixed;
+}
+
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10rem;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Header*/
+header{
+    background: black;
+    padding: 2rem 0 2rem 0;
+}
+
+#logo{
+
+}
+
+#logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+/*Body*/
+.introMessage{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#date{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /*display: inline-block;*/
+}
+
+
+
+/*Film lijst*/
+.film{
+    /*outline: 1px solid red;*/
+    float: left;
+    margin-top: 2rem;
+    background: #ffffff;
+    padding: 1rem;
+}
+
+.filmImage{
+    float: left;
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+.filmContent{
+
+}
+
+.filmTitel{
+    margin-bottom: 0.3rem;
+}
+
+.uur{
+    float: left;
+    margin-top: -3rem;
+    margin-left: 12rem;
+
+
+}
+
+.uur a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.2rem;
+    color: black;
+    margin-left: 0.5rem;
+}
+
+.uur a:first-child{
+    margin-left: 0;
+}
+
+.uur a:hover{
+    background: black;
+    color: #ffffff;
+}
+
+
+.unabledHour{
+    text-decoration: line-through;
+    border: 1px solid black;
+    padding: 0.2rem;
+    color: black;
+    margin-left: 0.5rem;
+}
+
+
+
+
+/*Zaal*/
+
+.zaal{
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.tableCaption{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+td{
+    background: #ffffff;
+}
+
+th {
+    padding: 0.5rem;
+}
+
+td:hover{
+    background: red;
+    color: red;
+}
+
+td a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    display: block;
+}
+
+.gereserveerd{
+    background: red;
+    color: red;
+}
+
+
+.bestelForm{
+    margin-top: 0.5rem;
+}
+
+.naamField, .emailField{
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 12rem;
+}
+
+
+.fullHeight{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Helpers*/
+/*
+clearfix hack
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.clearFix:before, .clearFix:after {
+    content: " ";
+    display: table;
+}
+.clearFix:after {
+    clear: both;
+}
+
+/*enkel voor IE6/7 */
+.clearFix {
+    zoom: 1;
+}
+
+
+.clear{
+    clear: both;
+}
